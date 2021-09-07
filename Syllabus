@@ -1,0 +1,52 @@
+O que é teste ? 
+
+FL-1.1.1 (K1) Indentificar os objetivos tipicos de teste.
+
+
+Teste é o modo de se determinar se um produto atende o nivel de qualidade definido no escopo de um projeto.
+Independente de qual fase do projeto, tipo de teste, objeto a ser testado o objetivo é garantir que as metricas definidas
+estejão conforme o padrão estabelecido.
+verificar se um produto atende aos requesitos especificados em sua contrução.
+Validar se um produto funciona conforme as necessidades de seu usuario e stackholder.
+Com isso podemos auxiliar os varios processos dentro da metodologia em qual se encontra, exercendo uma maior contribuição
+junto a Gestão de qualidade auxiliando a refinar os processos, metodos, artefatos e objetos utilizados ou criados.     
+
+FL-1.1.2(K2) Diferenciar o teste da depuração.
+A depuração de codigo é um metodo realizado pelo desenvolvedor para auditar um codigo e realizar correções neste codigo.
+Normalmente não é realizada pelo analista de teste, mas dependendo do tipo de metodologia podem estar envolvidos com a depuração.
+
+1.2 Porque o teste é necessario ?
+
+O teste assume uma forma diferente na engenharia de software devido as variveis inconstantes de seu processo.
+Dado isso os testes tem um papel fundamental visto que existem processos de testes para cada fase da metologia
+do desenvolvimento de software, os teste exercem um papel fundamental que é auxiliar a quantificar processos, padroes, metas, qualidades, tempo, é um dos pilares da engenharia de software.
+
+FL-1.2.1(K2) Dar Exemplo de porque o teste é necessario.
+Testamos para validar se o software atende as necessidades do cliente e dos stackholders
+Testamos para verificar se o software atende as metas estabelecidas.
+
+
+FL-1.2.2(K2) Descrever a relação entre testes e garantia de qualidade e dar exemplos de como os testes contribuem para melhorar a qualidade.
+
+FL-1.2.3(K2) Distinguir erro, defeito e falha.
+FL-1.2.4(K2) Distinguir causa-raiz de um defeito e seus efeitos.
+
+1.3 Os Sete principios de teste.
+
+FL-1.3.1(K2) Explicar os sete principíos de teste
+
+1.4 Processo de teste
+
+FL-1.4.1(K2)Explicar o impacto do contexto no processo de teste.
+
+FL-1.4.2(K2)Descrever as atividades de teste e respectivas tarefas dentro do processo de teste.
+
+FL-1.4.3(K2)Diferenciar os produtos de trabalho que suportam o processo de teste.
+
+FL-1.4.4(K2)Explicar o valor de manter a rastreabilidade entre a base de teste e os produtos de trabalho de teste.
+
+1.5 A psicologia do teste
+
+FL-1.5.1(K2) Identificar os fatores psicologicos que influenciam o sucesso do teste.
+
+FL-1.5.2(K2) Explicar a diferença entre a mentalidade necessaria para as atividades de teste e a mentalidade necessarias para atividades de desenvolvimento.
