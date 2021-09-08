@@ -3,7 +3,7 @@ O que é teste ?
 FL-1.1.1 (K1) Indentificar os objetivos tipicos de teste.
 
 
-Teste é o modo de se determinar se um produto atende o nivel de qualidade definido no escopo de um projeto.
+Teste é o modo de se determinar se um produto atende as metricas definidas no escopo de um projeto.
 Independente de qual fase do projeto, tipo de teste, objeto a ser testado o objetivo é garantir que as metricas definidas
 estejão conforme o padrão estabelecido.
 verificar se um produto atende aos requesitos especificados em sua contrução.
@@ -13,29 +13,70 @@ junto a Gestão de qualidade auxiliando a refinar os processos, metodos, artefat
 
 FL-1.1.2(K2) Diferenciar o teste da depuração.
 A depuração de codigo é um metodo realizado pelo desenvolvedor para auditar um codigo e realizar correções neste codigo.
-Normalmente não é realizada pelo analista de teste, mas dependendo do tipo de metodologia podem estar envolvidos com a depuração.
+Normalmente não é realizada pelo analista de teste, mas dependendo do tipo de metodologia o analista pode estar envolvido com a depuração.
 
 1.2 Porque o teste é necessario ?
 
 O teste assume uma forma diferente na engenharia de software devido as variveis inconstantes de seu processo.
-Dado isso os testes tem um papel fundamental visto que existem processos de testes para cada fase da metologia
-do desenvolvimento de software, os teste exercem um papel fundamental que é auxiliar a quantificar processos, padroes, metas, qualidades, tempo, é um dos pilares da engenharia de software.
+Dado isso os testes tem um papel fundamental no desenvolvimento de software visto que existem processos de testes para cada fase da metologia do desenvolvimento de software, os teste exercem um papel fundamental que é auxiliar a quantificar processos, padroes, metas, qualidades, tempo, é um dos pilares da engenharia de software.
+O teste é quem dita a distancia percorrida no desenvolvimento.
 
 FL-1.2.1(K2) Dar Exemplo de porque o teste é necessario.
-Testamos para validar se o software atende as necessidades do cliente e dos stackholders
+Testamos para validar se o software atende as necessidades do cliente e dos stackholders.
 Testamos para verificar se o software atende as metas estabelecidas.
 
 
+
 FL-1.2.2(K2) Descrever a relação entre testes e garantia de qualidade e dar exemplos de como os testes contribuem para melhorar a qualidade.
+Os teste auxiliam a quantificar, medir os resultados, sem eles não é possivel saber o estado e a qualidade atual do projeto.
+
 
 FL-1.2.3(K2) Distinguir erro, defeito e falha.
+Errar é humano, defeito existe por humano que por sua vez causa falhas
+Errar() é humano por isso gera defeito que causa uma ou varias falhas
+
 FL-1.2.4(K2) Distinguir causa-raiz de um defeito e seus efeitos.
+Causa-raiz é a origem de um ou varios problemas que levam a um ou varios defeitos e podem ser originadas 
+pelas mais diversas causas, encontrar a raiz desse problema pode ajudar a previnir o surgimento de defeitos parecidos.
 
 1.3 Os Sete principios de teste.
 
 FL-1.3.1(K2) Explicar os sete principíos de teste
 
+1)Os teste mostra a presença, não a ausencia de erros. dijkstar.
+Realizar um teste e não encontrar um erro não significa que não exista erros no produto.
+
+2)Os custos, tempo, não posibilitam executar um teste compĺeto de todo o sistema,em alguns casos sistemas criticos.
+Por isso é utilizado a analise de risco junto a outras tecnicas de teste e analisando as prioridades do sistema é possivel identificar em quais partes do sistema os testes devem ser concentrados para tentar minimizar a quantidade de erros do sistema.
+
+3)O teste inicial economiza tempo e dinheiro.
+O custo de um erro encontrado apos a implementação do sistema tem um alto valor elevado e pode ser multiplicado por mil.
+Assim quanto antes esse defeito for identificado menor o custo de reparo do mesmo.
+
+4)Defeitos se agrupam
+Normalmente os defeitos se agrupam em uma quantidade pequena de modulos geralmente os com maior dificuldades tecnicas ou implementação.
+Os defeitos previstos ou observados durante os testes podem auxiliar a analise de risco a direcionar os testes a estes modulos. 
+
+5)Cuidado com o paradoxo do pesticida
+Não é recomendavel realizar varias vezes os mesmos teste eles não encontraram novos defeitos.
+É recomendavel trocar os dados ou testes para encontrar novas falhas.
+O teste de regressão automatizado não se aplica neste contexto pois tem outra finalidade.
+
+6)O teste depende do contexto
+A quantidade e os tipos de testes mudam conforme o tipo de sistema ao qual serão empregados.
+Um sistema critico em certos casos tera testes diferentes e sera testado a exaustão, ja um software de padaria não tera
+a mesma quantidade de teste e metodos de teste ja que os riscos envolvidos são diferentes.
+O teste depende do contexto de risco e por isso a quantidade de testes e metodos envolvidos iram refletir o contexto.
+
+7)Ausencia de erros é uma ilusão
+O processo de teste é uma maneira de reduzir erros e tentar calcular uma margem de erros segura.
+
+
 1.4 Processo de teste
+O processo de teste é uma atividade que exige um planejamento, cada software esta em um contexto diferente por isso 
+existem varios processos e testes diferentes que podem auxiliar a ter um resultado melhor dependendo do contexto.
+
+
 
 FL-1.4.1(K2)Explicar o impacto do contexto no processo de teste.
 
@@ -50,3 +91,8 @@ FL-1.4.4(K2)Explicar o valor de manter a rastreabilidade entre a base de teste e
 FL-1.5.1(K2) Identificar os fatores psicologicos que influenciam o sucesso do teste.
 
 FL-1.5.2(K2) Explicar a diferença entre a mentalidade necessaria para as atividades de teste e a mentalidade necessarias para atividades de desenvolvimento.
+
+
+
+TMMI = modelo de maturidade de teste
+CMMI = modelo de maturidade de software
